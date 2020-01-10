@@ -1,7 +1,7 @@
 Summary: Programs for accessing MS-DOS disks without mounting the disks
 Name: mtools
 Version: 4.0.18
-Release: 3%{?dist}
+Release: 5%{?dist}
 License: GPLv3+
 Group: Applications/System
 Source0: ftp://ftp.gnu.org/gnu/mtools/mtools-%{version}.tar.bz2
@@ -68,6 +68,12 @@ fi
 %{_infodir}/mtools.info*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.0.18-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.0.18-4
+- Mass rebuild 2013-12-27
+
 * Tue Mar 26 2013 Adam Tkac <atkac redhat com> - 4.0.18-3
 - use bz2 compressed source instead of lz
 
